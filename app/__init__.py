@@ -1,5 +1,6 @@
 from flask import Flask, render_template
 from flask_restx import Api
+from app.api.v1.staff import api as staff_namespace
 
 
 def create_app():
@@ -20,5 +21,7 @@ def create_app():
         description="API for managing Holberton School staff members.",
         doc="/api/",
     )
+
+    api.add_namespace(staff_namespace, path="/api/v1/staff")
 
     return app
