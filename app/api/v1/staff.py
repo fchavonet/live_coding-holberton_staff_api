@@ -18,7 +18,7 @@ staff_data = []
 @api.route("/")
 class StaffList(Resource):
     """
-    Handle listing of staff members.
+    Handle creation and listing of staff members.
     """
 
     @api.expect(staff_model)
@@ -54,8 +54,7 @@ class StaffMember(Resource):
     Handle operations on a specific staff member.
     """
 
-    @api.marshal_with(staff_model)
-    @api.response(200, "Staff member found.")
+    @api.marshal_with(staff_model, code=200, description="Staff member found.")
     @api.response(404, "Staff member not found.")
     def get(self, staff_id):
         """
@@ -65,5 +64,20 @@ class StaffMember(Resource):
         for member in staff_data:
             if member["id"] == staff_id:
                 return member
+
+        api.abort(404, "Staff member not found.")
+
+    @api.response(204, "Staff member successfully deleted.")
+    @api.response(404, "Staff member not found.")
+    def delete(self, staff_id):
+        """
+        Delete a staff member by their ID.
+        """
+
+        for i, member in enumerate(staff_data):
+            if member["id"] == staff_id:
+                del staff_data[i]
+
+                return "", 204
 
         api.abort(404, "Staff member not found.")
