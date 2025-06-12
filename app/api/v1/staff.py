@@ -46,3 +46,24 @@ class StaffList(Resource):
         """
 
         return staff_data
+
+
+@api.route("/<int:staff_id>")
+class StaffMember(Resource):
+    """
+    Handle operations on a specific staff member.
+    """
+
+    @api.marshal_with(staff_model)
+    @api.response(200, "Staff member found.")
+    @api.response(404, "Staff member not found.")
+    def get(self, staff_id):
+        """
+        Retrieve a staff member by their ID.
+        """
+
+        for member in staff_data:
+            if member["id"] == staff_id:
+                return member
+
+        api.abort(404, "Staff member not found.")
