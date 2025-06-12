@@ -21,6 +21,24 @@ class StaffList(Resource):
     Handle listing of staff members.
     """
 
+    @api.expect(staff_model)
+    @api.marshal_with(staff_model, code=201, description="Staff member successfully created.")
+    @api.response(400, "A staff member with this ID already exists.")
+    def post(self):
+        """
+        Create a new staff member (ID must be provided manually).
+        """
+
+        new_data = api.payload
+
+        # Check for duplicate ID.
+        if any(member["id"] == new_data["id"] for member in staff_data):
+            api.abort(400, f"A staff member with ID {new_data['id']} already exists.")
+
+        staff_data.append(new_data)
+
+        return new_data, 201
+
     @api.marshal_list_with(staff_model)
     def get(self):
         """
