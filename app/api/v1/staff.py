@@ -67,6 +67,24 @@ class StaffMember(Resource):
 
         api.abort(404, "Staff member not found.")
 
+    @api.expect(staff_model)
+    @api.marshal_with(staff_model, code=200, description="Staff member successfully updated.")
+    @api.response(404, "Staff member not found.")
+    def put(self, staff_id):
+        """
+        Update a staff member by their ID.
+        """
+
+        updated_data = api.payload
+
+        for i, member in enumerate(staff_data):
+            if member["id"] == staff_id:
+                staff_data[i] = updated_data
+
+                return updated_data, 200
+
+        api.abort(404, "Staff member not found.")
+
     @api.response(204, "Staff member successfully deleted.")
     @api.response(404, "Staff member not found.")
     def delete(self, staff_id):
