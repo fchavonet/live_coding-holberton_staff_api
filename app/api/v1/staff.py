@@ -5,10 +5,10 @@ api = Namespace("Staff", description="Management of Holberton staff members.")
 
 staff_model = api.model("Staff", {
     "id": fields.Integer(required=True, description="Unique ID of the staff member."),
-    "name": fields.String(required=True, description="First name."),
-    "surname": fields.String(required=True, description="Last name."),
+    "first-name": fields.String(required=True, description="First name."),
+    "last-name": fields.String(required=True, description="Last name."),
     "age": fields.Integer(required=True, description="Age."),
-    "job": fields.String(required=True, description="Job title."),
+    "job-title": fields.String(required=True, description="Job title."),
 })
 
 # In-memory data storage.
