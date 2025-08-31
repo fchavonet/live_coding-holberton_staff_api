@@ -1,46 +1,44 @@
-<img height="50px" align="right" src="https://raw.githubusercontent.com/fchavonet/fchavonet/main/assets/images/logo-web.png" alt="Web logo">
-
 # Holberton Staff API
 
-## 🔖 Table of contents
+## Table of contents
 
 <details>
     <summary>
         CLICK TO ENLARGE 😇
     </summary>
-    📄 <a href="#description">Description</a>
+    <a href="#description">Description</a>
     <br>
-    🎓 <a href="#objectives">Objectives</a>
+    <a href="#objectives">Objectives</a>
     <br>
-    🔨 <a href="#tech-stack">Tech stack</a>
+    <a href="#tech-stack">Tech stack</a>
     <br>
-    📂 <a href="#files-description">Files description</a>
+    <a href="#files-description">Files description</a>
     <br>
-    💻 <a href="#installation_and_how_to_use">Installation and how to use</a>
+    <a href="#installation_and_how_to_use">Installation and how to use</a>
     <br>
-    🔧 <a href="#whats-next">What's next?</a>
+    <a href="#whats-next">What's next?</a>
     <br>
-    ♥️ <a href="#thanks">Thanks</a>
+    <a href="#thanks">Thanks</a>
     <br>
-    👷 <a href="#authors">Authors</a>
+    <a href="#authors">Authors</a>
 </details>
 
-## 📄 <span id="description">Description</span>
+## <span id="description">Description</span>
 
-This project was developed as part of a live-coding session for a junior cohort at Holberton School Toulouse, presented live on campus with students and not recorded. Its purpose is to demonstrate the rapid setup and ease of use of Flask combined with Flask-RESTX for creating a RESTful API. Although not suitable for production, this example provides:
+This project was developed during a live-coding session with a junior cohort at Holberton School Toulouse. It was presented live on campus and was not recorded. Its purpose is to demonstrate the rapid setup and ease of use of Flask combined with Flask-RESTX for creating a RESTful API. Although not suitable for production, this example provides:
 
 - An in-memory API to manage Holberton School staff members (create, read, update, delete).
 - Swagger (OpenAPI) documentation accessible via a built-in UI.
 - A simple web front-end to interact with the API.
 
-## 🎓 <span id="objectives">Objectives</span>
+## <span id="objectives">Objectives</span>
 
 - Showcase how quickly an API can be bootstrapped with Flask and Flask-RESTX.
 - Introduce RESTful principles (endpoints, HTTP methods, status codes).
 - Provide hands-on experience with Swagger documentation.
 - Build a minimal front-end for testing and demonstration.
 
-## 🔨 <span id="tech-stack">Tech stack</span>
+## <span id="tech-stack">Tech stack</span>
 
 <p align="left">
     <img src="https://img.shields.io/badge/PYTHON-3776ab?logo=python&logoColor=white&style=for-the-badge" alt="Python badge">
@@ -55,9 +53,9 @@ This project was developed as part of a live-coding session for a junior cohort 
     <img src="https://img.shields.io/badge/VS CODE-007acc?logo=data:image/svg+xml;base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KDTwhLS0gVXBsb2FkZWQgdG86IFNWRyBSZXBvLCB3d3cuc3ZncmVwby5jb20sIFRyYW5zZm9ybWVkIGJ5OiBTVkcgUmVwbyBNaXhlciBUb29scyAtLT4KPHN2ZyBmaWxsPSIjZmZmZmZmIiB3aWR0aD0iODAwcHgiIGhlaWdodD0iODAwcHgiIHZpZXdCb3g9Ii0wLjUgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KDTxnIGlkPSJTVkdSZXBvX2JnQ2FycmllciIgc3Ryb2tlLXdpZHRoPSIwIi8+Cg08ZyBpZD0iU1ZHUmVwb190cmFjZXJDYXJyaWVyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KDTxnIGlkPSJTVkdSZXBvX2ljb25DYXJyaWVyIj4KDTxwYXRoIGQ9Im0xNy44NTggMjMuOTk4LTkuNzcxLTkuNDg0LTUuODY2IDQuNDY1LTIuMjIxLTEuMTE1di0xMS43MTlsMi4yMzQtMS4xMjEgNS44NyA0LjQ2OSA5Ljc0Ny05LjQ5MyA1LjU4NyAyLjIzOXYxOS41MzFsLTUuNTc5IDIuMjN6bS0uNTYzLTE2LjE4Ni01LjU3NyA0LjE3MyA1LjU4IDQuMjAyem0tMTQuNTA3IDEuNjg1djUuMDE2bDIuNzg3LTIuNTI1eiIvPgoNPC9nPgoNPC9zdmc+&logoColor=white&style=for-the-badge" alt="VS Code badge">
 </p>
 
-## 📂 <span id="files-description">File description</span>
+## <span id="files-description">Files description</span>
 
-| **FILE**          | **DESCRIPTION**                                                   |
+| **FILES**         | **DESCRIPTION**                                                   |
 | :---------------: | ----------------------------------------------------------------- |
 | `assets`          | Contains the resources required for the repository.               |
 | `app`             | Application package with factory (`__init__.py`) and API modules. |
@@ -66,9 +64,9 @@ This project was developed as part of a live-coding session for a junior cohort 
 | `.gitignore`      | Specifies files and folders to be ignored by Git.                 |
 | `README.md`       | The README file you are currently reading 😉.                     |
 
-## 💻 <span id="installation_and_how_to_use">Installation and how to use</span>
+## <span id="installation_and_how_to_use">Installation and how to use</span>
 
-**Installation:**
+### Installation:
 
 1. Clone this repository:
     - Open your preferred Terminal.
@@ -99,7 +97,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-**How to use:**
+### How to use:
 
 1. Run the `run.py` script to start the server:
 
@@ -107,9 +105,9 @@ pip install -r requirements.txt
 python run.py
 ```
 
-> 📌 The server will start in debug mode on port 3000 (you can change it in the `run.py` file).
+> The server will start in debug mode on port 3000 (you can change it in the `run.py` file).
 
-2. You can interact with the API using the command-line tools:
+2. You can interact with the API using command-line tools:
 
 - Create a staff member:
 
@@ -165,7 +163,7 @@ curl -X DELETE http://127.0.0.1:3000/api/v1/staff/6809
     <img src="./assets/images/json.webp">
 </p>
 
-## 🔧 <span id="whats-next">What's next?</span>
+## <span id="whats-next">What's next?</span>
 
 - Persist data with a database (SQLAlchemy).
 - Add authentication and authorization (JWT).
@@ -173,11 +171,11 @@ curl -X DELETE http://127.0.0.1:3000/api/v1/staff/6809
 - Improve the front-end with modern frameworks.
 - Deploy to a production environment.
 
-## ♥️ <span id="thanks">Thanks</span>
+## <span id="thanks">Thanks</span>
 
 - Special thanks to the [Holberton School Toulouse](https://www.holbertonschool.fr/campus/toulouse) staff and students, especially the cohort #26, for their dedication and attention during the live-coding session.
 
-## 👷 <span id="authors">Authors</span>
+## <span id="authors">Authors</span>
 
 **Fabien CHAVONET**
 - GitHub: [@fchavonet](https://github.com/fchavonet)
