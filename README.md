@@ -1,29 +1,6 @@
 # Holberton Staff API
 
-## Table of contents
-
-<details>
-    <summary>
-        CLICK TO ENLARGE 😇
-    </summary>
-    <a href="#description">Description</a>
-    <br>
-    <a href="#objectives">Objectives</a>
-    <br>
-    <a href="#tech-stack">Tech stack</a>
-    <br>
-    <a href="#files-description">Files description</a>
-    <br>
-    <a href="#installation_and_how_to_use">Installation and how to use</a>
-    <br>
-    <a href="#whats-next">What's next?</a>
-    <br>
-    <a href="#thanks">Thanks</a>
-    <br>
-    <a href="#authors">Authors</a>
-</details>
-
-## <span id="description">Description</span>
+## Description
 
 This project was developed during a live-coding session with a junior cohort at Holberton School Toulouse. It was presented live on campus and was not recorded. Its purpose is to demonstrate the rapid setup and ease of use of Flask combined with Flask-RESTX for creating a RESTful API. Although not suitable for production, this example provides:
 
@@ -31,31 +8,25 @@ This project was developed during a live-coding session with a junior cohort at 
 - Swagger (OpenAPI) documentation accessible via a built-in UI.
 - A simple web front-end to interact with the API.
 
-## <span id="objectives">Objectives</span>
+## Objectives
 
 - Showcase how quickly an API can be bootstrapped with Flask and Flask-RESTX.
 - Introduce RESTful principles (endpoints, HTTP methods, status codes).
 - Provide hands-on experience with Swagger documentation.
 - Build a minimal front-end for testing and demonstration.
 
-## <span id="tech-stack">Tech stack</span>
+## Tech Stack
 
-<p align="left">
-    <img src="https://img.shields.io/badge/PYTHON-3776ab?logo=python&logoColor=white&style=for-the-badge" alt="Python badge">
-    <img src="https://img.shields.io/badge/FLASK-000000?logo=flask&logoColor=white&style=for-the-badge" alt="Flask badge">
-    <img src="https://img.shields.io/badge/HTML5-e34f26?logo=html5&logoColor=white&style=for-the-badge" alt="HTML5 badge">
-    <img src="https://img.shields.io/badge/CSS3-1572b6?logo=css3&logoColor=white&style=for-the-badge" alt="CSS3 badge">
-    <img src="https://img.shields.io/badge/JAVASCRIPT-f7df1e?logo=javascript&logoColor=black&style=for-the-badge" alt="JavaScript badge">
-    <img src="https://img.shields.io/badge/BOOTSTRAP-7952b3?logo=bootstrap&logoColor=white&style=for-the-badge" alt="Bootstrap badge">
-    <img src="https://img.shields.io/badge/GIT-f05032?logo=git&logoColor=white&style=for-the-badge" alt="Git badge">
-    <img src="https://img.shields.io/badge/GITHUB-181717?logo=github&logoColor=white&style=for-the-badge" alt="GitHub badge">
-    <img src="https://img.shields.io/badge/MARKDOWN-000000?logo=markdown&logoColor=white&style=for-the-badge" alt="Markdown badge">
-    <img src="https://img.shields.io/badge/VS CODE-007acc?logo=data:image/svg+xml;base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KDTwhLS0gVXBsb2FkZWQgdG86IFNWRyBSZXBvLCB3d3cuc3ZncmVwby5jb20sIFRyYW5zZm9ybWVkIGJ5OiBTVkcgUmVwbyBNaXhlciBUb29scyAtLT4KPHN2ZyBmaWxsPSIjZmZmZmZmIiB3aWR0aD0iODAwcHgiIGhlaWdodD0iODAwcHgiIHZpZXdCb3g9Ii0wLjUgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KDTxnIGlkPSJTVkdSZXBvX2JnQ2FycmllciIgc3Ryb2tlLXdpZHRoPSIwIi8+Cg08ZyBpZD0iU1ZHUmVwb190cmFjZXJDYXJyaWVyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KDTxnIGlkPSJTVkdSZXBvX2ljb25DYXJyaWVyIj4KDTxwYXRoIGQ9Im0xNy44NTggMjMuOTk4LTkuNzcxLTkuNDg0LTUuODY2IDQuNDY1LTIuMjIxLTEuMTE1di0xMS43MTlsMi4yMzQtMS4xMjEgNS44NyA0LjQ2OSA5Ljc0Ny05LjQ5MyA1LjU4NyAyLjIzOXYxOS41MzFsLTUuNTc5IDIuMjN6bS0uNTYzLTE2LjE4Ni01LjU3NyA0LjE3MyA1LjU4IDQuMjAyem0tMTQuNTA3IDEuNjg1djUuMDE2bDIuNzg3LTIuNTI1eiIvPgoNPC9nPgoNPC9zdmc+&logoColor=white&style=for-the-badge" alt="VS Code badge">
-</p>
+![Python badge](https://img.shields.io/badge/PYTHON-3776ab?logo=python&logoColor=white&style=for-the-badge)
+![Flask badge](https://img.shields.io/badge/FLASK-000000?logo=flask&logoColor=white&style=for-the-badge)
+![HTML5 badge](https://img.shields.io/badge/HTML5-e34f26?logo=html5&logoColor=white&style=for-the-badge)
+![CSS3 badge](https://img.shields.io/badge/CSS3-1572b6?logo=css3&logoColor=white&style=for-the-badge)
+![JavaScript badge](https://img.shields.io/badge/JAVASCRIPT-f7df1e?logo=javascript&logoColor=black&style=for-the-badge)
+![Bootstrap badge](https://img.shields.io/badge/BOOTSTRAP-7952b3?logo=bootstrap&logoColor=white&style=for-the-badge)
 
-## <span id="files-description">Files description</span>
+## File Description
 
-| **FILES**         | **DESCRIPTION**                                                   |
+| **FILE**          | **DESCRIPTION**                                                   |
 | :---------------: | ----------------------------------------------------------------- |
 | `assets`          | Contains the resources required for the repository.               |
 | `app`             | Application package with factory (`__init__.py`) and API modules. |
@@ -64,44 +35,46 @@ This project was developed during a live-coding session with a junior cohort at 
 | `.gitignore`      | Specifies files and folders to be ignored by Git.                 |
 | `README.md`       | The README file you are currently reading 😉.                     |
 
-## <span id="installation_and_how_to_use">Installation and how to use</span>
+## Installation & Usage
 
-### Installation:
+### Installation
 
 1. Clone this repository:
     - Open your preferred Terminal.
     - Navigate to the directory where you want to clone the repository.
     - Run the following command:
 
-```bash
+```
 git clone https://github.com/fchavonet/live_coding-holberton_staff_api.git
 ```
 
-2. Open the repository you've just cloned.
+2. Open the cloned repository.
 
 3. Create a virtual environment:
 
-```bash
+```
 python3 -m venv venv
 ```
 
 4. Activate the virtual environment:
 
-```bash
+```
 source venv/bin/activate
 ```
 
+> On Windows: `venv\Scripts\activate`.
+
 5. Install dependencies:
 
-```bash
+```
 pip install -r requirements.txt
 ```
 
-### How to use:
+### Usage
 
 1. Run the `run.py` script to start the server:
 
-```bash
+```
 python run.py
 ```
 
@@ -111,7 +84,7 @@ python run.py
 
 - Create a staff member:
 
-```bash
+```
 curl -X POST "http://127.0.0.1:3000/api/v1/staff/" \
      -H "Content-Type: application/json" \
      -d '{"id":6809,"first-name":"Fabien","last-name":"Chavonet","age":20,"job-title":"Software Engineer"}'
@@ -119,19 +92,19 @@ curl -X POST "http://127.0.0.1:3000/api/v1/staff/" \
 
 - List all staff members:
 
-```bash
+```
 curl http://127.0.0.1:3000/api/v1/staff/
 ```
 
 - Retrieve a specific staff member:
 
-```bash
+```
 curl http://127.0.0.1:3000/api/v1/staff/6809
 ```
 
 - Update a staff member:
 
-```bash
+```
 curl -X PUT "http://127.0.0.1:3000/api/v1/staff/6809" \
      -H "Content-Type: application/json" \
      -d '{"id":6809,"first-name":"Fabien","last-name":"Chavonet","age":40,"job-title":"Software Engineer"}'
@@ -139,7 +112,7 @@ curl -X PUT "http://127.0.0.1:3000/api/v1/staff/6809" \
 
 - Delete a staff member:
 
-```bash
+```
 curl -X DELETE http://127.0.0.1:3000/api/v1/staff/6809
 ```
 
@@ -157,13 +130,13 @@ curl -X DELETE http://127.0.0.1:3000/api/v1/staff/6809
     <img src="./assets/images/swagger_ui.webp">
 </p>
 
-- JSON (data) : [http://127.0.0.1:3000/api/v1/staff/](http://127.0.0.1:3000/api/v1/staff)
+- JSON (data): [http://127.0.0.1:3000/api/v1/staff/](http://127.0.0.1:3000/api/v1/staff)
 
 <p align="center">
     <img src="./assets/images/json.webp">
 </p>
 
-## <span id="whats-next">What's next?</span>
+## What's Next?
 
 - Persist data with a database (SQLAlchemy).
 - Add authentication and authorization (JWT).
@@ -171,11 +144,11 @@ curl -X DELETE http://127.0.0.1:3000/api/v1/staff/6809
 - Improve the front-end with modern frameworks.
 - Deploy to a production environment.
 
-## <span id="thanks">Thanks</span>
+## Thanks
 
 - Special thanks to the [Holberton School Toulouse](https://www.holbertonschool.fr/campus/toulouse) staff and students, especially the cohort #26, for their dedication and attention during the live-coding session.
 
-## <span id="authors">Authors</span>
+## Author(s)
 
 **Fabien CHAVONET**
 - GitHub: [@fchavonet](https://github.com/fchavonet)
